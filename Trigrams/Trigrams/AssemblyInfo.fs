@@ -10,9 +10,9 @@ open System.Runtime.InteropServices
 [<assembly: AssemblyTitle("Trigrams")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
-[<assembly: AssemblyCompany("Microsoft")>]
+[<assembly: AssemblyCompany("")>]
 [<assembly: AssemblyProduct("Trigrams")>]
-[<assembly: AssemblyCopyright("Copyright © Microsoft 2016")>]
+[<assembly: AssemblyCopyright("Copyright © 2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 
@@ -20,9 +20,6 @@ open System.Runtime.InteropServices
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [<assembly: ComVisible(false)>]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("e173642a-65d2-4bb5-80c8-1c2651274f9a")>]
 
 // Version information for an assembly consists of the following four values:
 // 
