@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e173642a-65d2-4bb5-80c8-1c2651274f9a</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Trigrams</RootNamespace>
-    <AssemblyName>Trigrams</AssemblyName>
+    <ProjectGuid>17a21115-1085-465d-b6f4-8189cf0f24f5</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TrigramsLib</RootNamespace>
+    <AssemblyName>TrigramsLib</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
-    <Name>Trigrams</Name>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Name>TrigramsLib</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\Trigrams.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
-    <StartArguments>..\..\..\TextFiles\Lovecraft.txt</StartArguments>
+    <DocumentationFile>bin\Debug\TrigramsLib.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,9 +31,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\Trigrams.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>bin\Release\TrigramsLib.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -49,13 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <None Include="App.config" />
-    <Compile Include="Program.fs" />
+    <Compile Include="FileInput.fs" />
+    <Compile Include="MakeTrigrams.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TrigramsLib\TrigramsLib.fsproj">
-      <Name>TrigramsLib</Name>
-      <Project>{17a21115-1085-465d-b6f4-8189cf0f24f5}</Project>
+    <ProjectReference Include="..\TwoTrack\TwoTrack.fsproj">
+      <Name>TwoTrack</Name>
+      <Project>{4e832d6c-cdae-49ce-b2e6-601dbd4d093a}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
