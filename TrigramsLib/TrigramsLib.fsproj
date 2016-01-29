@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="TrigramLookup.fs" />
     <Compile Include="FileInput.fs" />
     <Compile Include="MakeTrigrams.fs" />
+    <Compile Include="TrigramLookup.fs" />
+    <Compile Include="Generator.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TwoTrack\TwoTrack.fsproj">
