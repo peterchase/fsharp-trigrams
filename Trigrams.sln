@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Trigrams", "Trigrams\Trigrams.fsproj", "{E173642A-65D2-4BB5-80C8-1C2651274F9A}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwoTrack", "..\TwoTrack\TwoTrack.fsproj", "{4E832D6C-CDAE-49CE-B2E6-601DBD4D093A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwoTrack", "TwoTrack\TwoTrack.fsproj", "{4E832D6C-CDAE-49CE-B2E6-601DBD4D093A}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TrigramsTests", "TrigramsTests\TrigramsTests.fsproj", "{85D6AF49-313E-4F8C-808F-32F63054BFDC}"
 EndProject
