@@ -6,5 +6,7 @@ namespace Trigrams
 module App =
     [<EntryPoint>]
     let main argv = 
-        Trigrams.FileInput.getElements argv.[0] |> Trigrams.MakeTrigrams.toTrigrams |> List.iter (string >> printfn "%s")
+        Trigrams.FileInput.getElements argv.[0] 
+            |> Trigrams.MakeTrigrams.toTrigrams
+            |> List.iter (string >> printfn "%s")
         0 // return an integer exit code
